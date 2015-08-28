@@ -1,0 +1,13 @@
+<plugin name='opensso' version='0.1'>
+  <author>Raymond Edah</author>
+  <authorEmail>t2tre@skyblue.eu.com</authorEmail>
+  <title>Provides access to OpenSSO services.</title>
+  <description>This plugin provides access to the RESTful services provided by OpenSSO.
+</description>
+  <documentation>http://grails.org/Opensso+Plugin</documentation>
+  <resources>
+    <resource>DataSource</resource>
+    <resource>UrlMappings</resource>
+    <resource>OpenssoService</resource>
+  </resources>
+</plugin>
